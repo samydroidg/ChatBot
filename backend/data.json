@@ -1,0 +1,227 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "hey there",
+        "hi bot",
+        "hello bot",
+        "good morning",
+        "good evening",
+        "good afternoon",
+        "yo",
+        "what's up",
+        "wassup",
+        "are you there"
+      ],
+      "responses": [
+        "Hey! 😊 How can I help you today?",
+        "Hello! I'm here to help. What do you want to learn?",
+        "Hi 👋 Ask me anything — coding, concepts, or doubts.",
+        "Hey there! What’s on your mind?"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "how are you",
+        "how are you doing",
+        "are you fine",
+        "how's it going",
+        "what's going on",
+        "everything good"
+      ],
+      "responses": [
+        "I'm doing great 😄 Thanks for asking!",
+        "All good here! How about you?",
+        "I'm fine and ready to help you 👍"
+      ]
+    },
+    {
+      "tag": "bot_identity",
+      "patterns": [
+        "who are you",
+        "what are you",
+        "what is your name",
+        "are you a bot",
+        "are you an ai",
+        "tell me about yourself"
+      ],
+      "responses": [
+        "I'm an AI chatbot built to help you learn and solve problems.",
+        "You can think of me as your coding assistant 🤖",
+        "I'm here to explain things clearly and help you grow."
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": [
+        "what is python",
+        "explain python",
+        "python language",
+        "why learn python",
+        "is python easy",
+        "python for beginners",
+        "uses of python",
+        "python meaning"
+      ],
+      "responses": [
+        "Python is a high-level programming language known for its simple syntax and readability.",
+        "Python is widely used in web development, AI, automation, and data science.",
+        "Python is beginner-friendly because it focuses more on logic than complex syntax."
+      ]
+    },
+    {
+      "tag": "html",
+      "patterns": [
+        "what is html",
+        "html meaning",
+        "define html",
+        "html basics",
+        "html for beginners"
+      ],
+      "responses": [
+        "HTML is the standard markup language used to create web page structure.",
+        "HTML defines elements like headings, paragraphs, links, and images.",
+        "HTML is the backbone of every website."
+      ]
+    },
+    {
+      "tag": "css",
+      "patterns": [
+        "what is css",
+        "css meaning",
+        "define css",
+        "css basics",
+        "css for beginners"
+      ],
+      "responses": [
+        "CSS is used to style and design web pages.",
+        "With CSS, you control colors, fonts, layouts, and responsiveness.",
+        "CSS makes websites look attractive and user-friendly."
+      ]
+    },
+    {
+      "tag": "javascript",
+      "patterns": [
+        "what is javascript",
+        "explain javascript",
+        "js meaning",
+        "javascript basics"
+      ],
+      "responses": [
+        "JavaScript is used to make web pages interactive.",
+        "JavaScript adds logic, events, and dynamic behavior to websites.",
+        "It runs directly in the browser and powers modern web apps."
+      ]
+    },
+    {
+      "tag": "ai",
+      "patterns": [
+        "what is ai",
+        "artificial intelligence meaning",
+        "explain ai",
+        "ai in simple words"
+      ],
+      "responses": [
+        "AI means making machines capable of intelligent behavior.",
+        "AI systems learn from data and make decisions.",
+        "Examples include chatbots, recommendations, and voice assistants."
+      ]
+    },
+    {
+      "tag": "ml",
+      "patterns": [
+        "what is machine learning",
+        "ml meaning",
+        "explain machine learning",
+        "ml basics"
+      ],
+      "responses": [
+        "Machine Learning is a subset of AI focused on learning from data.",
+        "ML models improve automatically with experience.",
+        "It is widely used in prediction and pattern recognition."
+      ]
+    },
+    {
+      "tag": "career_guidance",
+      "patterns": [
+        "how to start coding",
+        "how to become a developer",
+        "best programming language to learn",
+        "career in software",
+        "how to get a job in it"
+      ],
+      "responses": [
+        "Start with one language like Python or JavaScript and practice daily.",
+        "Build small projects to improve your skills.",
+        "Consistency and problem-solving are key in a software career."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "i feel demotivated",
+        "i am tired",
+        "i want to give up",
+        "i am stressed",
+        "i feel lost"
+      ],
+      "responses": [
+        "It's okay to feel like that sometimes 💙 Take a short break.",
+        "Progress takes time — keep going, you're doing well.",
+        "Small steps every day lead to big results."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "thanks a lot",
+        "thank you so much",
+        "appreciate it"
+      ],
+      "responses": [
+        "You're welcome 😊",
+        "Happy to help!",
+        "Anytime 😄"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "see you later",
+        "exit",
+        "quit"
+      ],
+      "responses": [
+        "Goodbye 👋 Have a great day!",
+        "See you soon!",
+        "Take care 😊"
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "asdf",
+        "random text",
+        "???",
+        "i dont know",
+        "nonsense",
+        "blah blah"
+      ],
+      "responses": [
+        "Sorry, I didn’t understand that 🤔",
+        "Can you rephrase your question?",
+        "I'm still learning — try asking something else 😊"
+      ]
+    }
+  ]
+}
